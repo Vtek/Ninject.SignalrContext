@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Ninject.SignalrContext</id>
+    <version>1.1.0-alpha</version>
+    <title>Ninject SignalrContext</title>
+    <authors>Sylvain PONTOREAU</authors>
+    <owners>Sylvain PONTOREAU</owners>
+    <licenseUrl>https://github.com/Vtek/Ninject.SignalrContext/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Vtek/Ninject.SingalrContext</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Smart IoC library for your SignalR application</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © PONTOREAU Sylvain 2015</copyright>
+    <tags>Ninject SignalR IoC</tags>
+    <dependencies>
+	  <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.0" />
+	  <dependency id="Ninject" version="3.2.0" />
+	  <dependency id="Ninject.CoreContext" version="1.1.1-alpha" />
+    </dependencies>
+  </metadata>
+</package>
